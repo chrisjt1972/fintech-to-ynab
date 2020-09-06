@@ -1,7 +1,7 @@
 {
   "name": "Fintech to YNAB",
   "description": "Automatically push Monzo and Starling transactions into YNAB",
-  "repository": "https://github.com/scottrobertson/fintech-to-ynab",
+  "repository": "https://github.com/syncforynab/fintech-to-ynab",
   "keywords": ["monzo", "ynab", "starling"],
   "env": {
     "YNAB_ACCESS_TOKEN": {
@@ -30,10 +30,6 @@
     },
     "SKIP_TAGS": {
       "description": "Optional: This will tell Fintech to YNAB not to add hashtags to the transaction description. (Monzo Only)",
-      "required": false
-    },
-    "PUSHBULLET_API_KEY": {
-      "description": "Optional: Push category balance notifications to Pushbullet",
       "required": false
     },
     "URL_SECRET": {
